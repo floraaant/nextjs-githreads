@@ -32,7 +32,7 @@ export default function RootLayout({
             <div className="flex-1 max-w-lg m-auto py-14 w-full">
               {children}
             </div>
-            <Footer />
+          <Footer />
           </div>
         </ThemeProvider>
       </body>
