@@ -7,7 +7,7 @@ export default async function Home() {
     const session = await getAuthSession();
     const posts = await getLatestsPosts();
 
-    return (<div>
+    return (<div className="divide-y divide-muted">
         {posts.map(p => (
         <Post post={p} key={p.id} />
         ))}
